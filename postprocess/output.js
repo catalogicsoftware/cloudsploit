@@ -128,7 +128,10 @@ module.exports = {
                     resource: result.resource || 'N/A',
                     region: result.region || 'Global',
                     status: exchangeStatusWord(result),
-                    message: result.message
+                    message: result.message,
+                    more_info: plugin.more_info || 'N/A',
+                    recommended_action: plugin.recommended_action || 'N/A',
+                    link : plugin.link || 'N/A'
                 };
 
                 if (complianceMsg) toWrite.compliance = complianceMsg;
