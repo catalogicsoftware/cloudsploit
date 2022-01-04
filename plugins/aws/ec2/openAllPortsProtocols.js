@@ -137,3 +137,5 @@ module.exports = {
         });
     }
 };
+
+module.exports.severity = 'high'

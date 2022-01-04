@@ -247,3 +247,4 @@ function addRoleFailures(roleFailures, statements, policyType, ignoreServiceSpec
         }
     }
 }
+module.exports.severity = 'low'

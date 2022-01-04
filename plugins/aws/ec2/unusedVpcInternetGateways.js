@@ -90,3 +90,4 @@ function loopGWForResults(gateways, results, region, resource, type = '') {
         }
     });
 }
+module.exports.severity = 'low'

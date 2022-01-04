@@ -235,3 +235,4 @@ function addPolicyToUserObj(userObj, user, policy) {
         if (!userObj[user.Arn].policyNames.includes(policy)) userObj[user.Arn].policyNames.push(policy);
     } else userObj[user.Arn] = {name: user.UserName, policyNames: [policy]};
 }
+module.exports.severity = 'low'

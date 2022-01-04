@@ -177,3 +177,4 @@ function loopJobsForResults(jobs, results, region) {
         }
     }
 }
+module.exports.severity = 'low'

@@ -62,3 +62,5 @@ module.exports = {
         });
     }
 };
+
+module.exports.severity = 'low'

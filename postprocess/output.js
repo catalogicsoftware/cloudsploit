@@ -131,7 +131,8 @@ module.exports = {
                     message: result.message,
                     more_info: plugin.more_info || 'N/A',
                     recommended_action: plugin.recommended_action || 'N/A',
-                    link : plugin.link || 'N/A'
+                    link : plugin.link || 'N/A',
+                    severity : plugin.severity || 'N/A'
                 };
 
                 if (complianceMsg) toWrite.compliance = complianceMsg;

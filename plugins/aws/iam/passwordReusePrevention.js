@@ -113,3 +113,4 @@ module.exports = {
         helpers.remediatePasswordPolicy(putCall, pluginName, remediation_file, passwordKey, config, cache, settings, resource, input, callback);
     }
 };
+module.exports.severity = 'low'

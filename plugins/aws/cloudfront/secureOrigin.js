@@ -110,3 +110,4 @@ module.exports = {
         });
     }
 };
+module.exports.severity = 'medium'

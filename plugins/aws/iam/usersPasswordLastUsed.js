@@ -111,3 +111,4 @@ module.exports = {
         callback(null, results, source);
     }
 };
+module.exports.severity = 'medium'

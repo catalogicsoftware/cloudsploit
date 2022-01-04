@@ -182,3 +182,5 @@ module.exports = {
         callback();
     }
 };
+
+module.exports.severity = 'medium'

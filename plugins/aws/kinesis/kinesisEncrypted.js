@@ -180,3 +180,4 @@ module.exports = {
         callback();
     }
 };
+module.exports.severity = 'low'
