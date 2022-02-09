@@ -46,3 +46,4 @@ module.exports = {
         return callback(null, results, source);
     }
 };
+module.exports.severity = 'low'
